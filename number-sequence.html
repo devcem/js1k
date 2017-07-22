@@ -1,0 +1,14 @@
+<script type="text/javascript">
+	var n = 31,
+		s = [3, 10, 0, 5, 2, 1],
+		x = [],
+		c = 200,
+		o = '';
+
+		for(z in s){
+			o+=String.fromCharCode(Math.sin((n-s[z])/100*2)*c);
+			c+=z*1.6;
+		}
+
+		console.log(o);
+</script>
